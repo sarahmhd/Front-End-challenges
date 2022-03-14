@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.main {
+  background-color: #fafafa;
+  height: 130vh;
+}
+
+.main .container {
+  max-width: 1440px;
+  padding: 50px;
+}
+
+.main .container .info h1 {
+  text-align: center;
+  font-weight: 100;
+}
+
+.main .container .info h1 + h1 {
+  font-weight: bold;
+}
+
+.main .container .info p {
+  color: #BEBEC3;
+  text-align: center;
+  width: 47%;
+  margin: 12px auto;
+}
+
+.main .container .felx {
+  margin-top: 70px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+}
+
+.main .container .felx p {
+  font-size: 14px;
+  color: #BEBEC3;
+}
+
+.main .container .felx .out1,
+.main .container .felx .out3 {
+  width: 90%;
+  padding: 28px;
+  height: 284px;
+  border-top: 5px solid #45d3d3;
+  border-radius: 6px;
+  -webkit-box-shadow: 5px 5px 16px #cbcbcb;
+          box-shadow: 5px 5px 16px #cbcbcb;
+  position: relative;
+  top: 24%;
+}
+
+.main .container .felx .out1 img,
+.main .container .felx .out3 img {
+  position: absolute;
+  bottom: 37px;
+  right: 37px;
+}
+
+.main .container .felx .out2 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: (1fr)[2];
+      grid-template-rows: repeat(2, 1fr);
+  row-gap: 23px;
+  justify-items: center;
+}
+
+.main .container .felx .out2 .in1,
+.main .container .felx .out2 .in2 {
+  width: 90%;
+  padding: 28px;
+  height: 284px;
+  border-top: 5px solid #45d3d3;
+  border-radius: 6px;
+  -webkit-box-shadow: 5px 5px 16px #cbcbcb;
+          box-shadow: 5px 5px 16px #cbcbcb;
+  position: relative;
+}
+
+.main .container .felx .out2 .in1 img,
+.main .container .felx .out2 .in2 img {
+  position: absolute;
+  bottom: 37px;
+  right: 37px;
+}
+
+.main .container .felx .out2 .in1 {
+  border-top-color: #ea5353;
+}
+
+.main .container .felx .out2 .in2 {
+  border-top-color: #fcaf4a;
+}
+
+.main .container .felx .out3 {
+  border-top-color: #549ef2;
+}
+/*# sourceMappingURL=style.css.map */
