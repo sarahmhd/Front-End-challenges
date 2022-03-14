@@ -2,7 +2,6 @@
 
 ## Html Css
 
-Colons can be used to align columns.
 
 |           project name          | project       |
 | ------------------------------- |:-------------:|
