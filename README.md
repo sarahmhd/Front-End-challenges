@@ -14,8 +14,8 @@
 |7-intro-component-with-signup-form-master| [click here](https://github.com/sarahmhd/Front-End-challenges/tree/main/intro-component-with-signup-form-master)|
 |8-nft-preview-card-component-main | [click here](https://github.com/sarahmhd/Front-End-challenges/tree/main/nft-preview-card-component-main)|
 |9-single-price-grid-component-master| [click here](https://github.com/sarahmhd/Front-End-challenges/tree/main/single-price-grid-component-master)|
-|10-stats-preview-card-component-main| [click here](https://github.com/sarahmhd/Front-End-challenges/tree/main/fylo-dark-theme-landing-page-master)|
-|11-article-preview-component-master| [click here](https://github.com/sarahmhd/Front-End-challenges/tree/main/article-preview-component-master)|
+|10-stats-preview-card-component-main| [click here](https://github.com/sarahmhd/Front-End-challenges/tree/main/stats-preview-card-component-main)|
+|11-testimonials-grid-section-main| [click here](https://github.com/sarahmhd/Front-End-challenges/tree/main/article-preview-component-master)|
 |11-base-apparel-coming-soon-master | [click here](https://github.com/sarahmhd/Front-End-challenges/tree/main/base-apparel-coming-soon-master)|
 |                                  |               |
 |                                  |               |
