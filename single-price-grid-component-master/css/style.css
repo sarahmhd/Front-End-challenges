@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@200&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #e5eff5;
+  background-image: url("../images/pattern-background-desktop.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  font-family: 'Karla', sans-serif;
+  height: 100vh;
+  max-width: 1440px;
+}
+
+body .card {
+  width: 50vw;
+  height: 70vh;
+  background-color: #FFF;
+  margin: 10% auto;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+      grid-template-areas: "top top" "left right";
+  border-radius: 5px;
+  -webkit-box-shadow: -5px 8px 14px #9cb2c1;
+          box-shadow: -5px 8px 14px #9cb2c1;
+}
+
+body .card .top {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: top;
+}
+
+body .card .top h1 {
+  text-transform: capitalize;
+  margin: 30px;
+  font-size: 27px;
+  color: #2ab2af;
+}
+
+body .card .top h3 {
+  margin-left: 30px;
+  font-size: 16px;
+  letter-spacing: 1px;
+  color: #c0df34;
+}
+
+body .card .top p {
+  margin-left: 30px;
+  line-height: 1.7;
+  color: gray;
+}
+
+body .card .left {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: left;
+  padding: 20px 30px;
+  background-color: #2ab2af;
+  color: #FFF;
+}
+
+body .card .left h3 {
+  text-transform: capitalize;
+}
+
+body .card .left h3 span {
+  color: #458b88;
+  font-family: 'Karla', sans-serif;
+  font-size: 16px;
+}
+
+body .card .left p {
+  text-transform: capitalize;
+  font-size: 14px;
+}
+
+body .card .left button {
+  padding: 10px 74px;
+  margin: 16px 34px;
+  border: none;
+  color: #FFF;
+  background-color: #c0df34;
+  text-transform: capitalize;
+  font-size: 15px;
+  border-radius: 5px;
+  -webkit-box-shadow: -2px 7px 5px #498986;
+          box-shadow: -2px 7px 5px #498986;
+}
+
+body .card .right {
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+  grid-area: right;
+  padding: 20px 30px;
+  background-color: #458b88;
+  color: #FFF;
+}
+
+body .card .right h3 {
+  text-transform: capitalize;
+}
+
+body .card .right p {
+  text-transform: capitalize;
+  font-size: 14px;
+  width: 70%;
+  line-height: 1.5;
+}
+/*# sourceMappingURL=style.css.map */
