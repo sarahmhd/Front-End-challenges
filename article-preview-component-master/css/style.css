@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #ecf2f8;
+  background-image: url("../images/pattern-background-desktop.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  font-family: 'Manrope', sans-serif;
+  height: 100vh;
+  max-width: 1440px;
+}
+
+body .attribution {
+  width: 70vw;
+  height: 50vh;
+  margin: 15% auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  background-color: #FFF;
+}
+
+body .attribution .left {
+  width: 100%;
+}
+
+body .attribution .left img {
+  width: 100%;
+  height: 100%;
+}
+
+body .attribution .right {
+  margin: 30px 66px;
+  font-size: 16px;
+}
+
+body .attribution .right h2 {
+  opacity: 0.7;
+}
+
+body .attribution .right p {
+  color: #9b9b9b;
+}
+
+body .attribution .right .avatar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 100%;
+  height: 50%;
+  margin-top: 25px;
+}
+
+body .attribution .right .avatar img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+body .attribution .right .avatar .fl {
+  margin: -13px 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-size: 13px;
+}
+
+body .attribution .right .avatar .fl h5 {
+  margin-bottom: -5px;
+  font-size: 15px;
+  margin-top: 16px;
+}
+
+body .attribution .right .avatar button {
+  margin-left: 170px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: none;
+  background-color: #ecf2f8;
+  margin-top: 18px;
+}
+
+body .attribution .right .avatar button img {
+  width: 60%;
+  height: 45%;
+}
+
+body .attribution .right .share {
+  position: absolute;
+  width: 20vw;
+  height: 8.6vh;
+  background-color: #48556a;
+  top: 51%;
+  left: 68%;
+  border-radius: 10px;
+  -webkit-box-shadow: 3px 10px 3px #e9e9e9;
+          box-shadow: 3px 10px 3px #e9e9e9;
+  display: none;
+}
+
+body .attribution .right .share::after {
+  content: " ";
+  border-left: 20px solid transparent;
+  border-right: 25px solid #48556a;
+  border-bottom: 25px solid transparent;
+  position: absolute;
+  -webkit-transform: rotate(135deg);
+          transform: rotate(135deg);
+  top: 30px;
+  left: 110px;
+}
+
+body .attribution .right .share ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body .attribution .right .share ul li {
+  padding-right: 25px;
+}
+
+body .attribution .right .share ul span {
+  color: #6d7f97;
+  letter-spacing: 4px;
+  font-size: 13px;
+  text-transform: uppercase;
+}
+
+body .attribution .right .visible {
+  display: block;
+}
+/*# sourceMappingURL=style.css.map */

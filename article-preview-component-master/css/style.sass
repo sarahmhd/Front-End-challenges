@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200&display=swap')
+
+@import 'componnent'
+body
+
+    margin: 0
+    padding: 0
+    background-color: $Light-Grayish-Blue
+    background-image: url("../images/pattern-background-desktop.svg")
+    background-repeat: no-repeat
+    background-size: cover
+    background-position: bottom
+    font-family: 'Manrope', sans-serif
+    height: 100vh
+    max-width: 1440px
+
+    .attribution
+        width: 70vw
+        height: 50vh
+        margin: 15% auto
+        display: flex
+        flex-direction: row
+        background-color: #FFF
+
+        .left
+            width: 100%
+
+            img
+                width: 100%
+                height: 100%
+        .right
+            margin: 30px 66px
+            font-size: 16px
+
+            h2
+                opacity: 0.7
+
+            p
+                color: #9b9b9b
+
+            .avatar
+                display: flex
+                flex-direction: row
+                width: 100%
+                height: 50%
+                margin-top: 25px
+
+                img
+                    width: 50px
+                    height: 50px
+                    border-radius: 50%
+
+                .fl
+                    margin: -13px 20px
+                    display: flex
+                    flex-direction: column
+                    font-size: 13px
+
+                    h5
+                        margin-bottom: -5px
+                        font-size: 15px
+                        margin-top: 16px
+
+                button
+                    margin-left: 170px
+                    width: 40px
+                    height: 40px
+                    border-radius: 50%
+                    border: none
+                    background-color: #ecf2f8
+                    margin-top: 18px
+
+                    img
+                        width: 60%
+                        height: 45%
+
+            .share
+                position: absolute
+                width: 20vw
+                height: 8.6vh
+                background-color: $Very-Dark-Grayish-Blue
+                top: 51%
+                left: 68%
+                border-radius: 10px
+                box-shadow: 3px 10px 3px #e9e9e9
+                display: none
+                &::after
+                    content: " "
+                    border-left: 20px solid transparent
+                    border-right: 25px solid $Very-Dark-Grayish-Blue
+                    border-bottom: 25px solid transparent
+                    position: absolute
+                    transform: rotate(135deg)
+                    top: 30px
+                    left: 110px
+
+                ul
+                    list-style: none
+                    display: flex
+
+                    li
+                        padding-right: 25px
+
+                    span
+                        color: $Desaturated-Dark-Blue
+                        letter-spacing: 4px
+                        font-size: 13px
+                        text-transform: uppercase
+
+            .visible
+                display: block
