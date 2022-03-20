@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap");
+@media screen and (min-width: 900px) {
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: #090b1a;
+    background-image: url("../images/pattern-background-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    font-family: 'Inter', sans-serif;
+    max-height: 120vh;
+    max-width: 1440px;
+  }
+  .card {
+    width: 80%;
+    height: 60vh;
+    margin: 10% auto;
+    background-color: #1b1938;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .card .left {
+    color: white;
+  }
+  .card .left h1 {
+    text-align: start;
+    margin: 44px 50px 20px;
+    text-transform: capitalize;
+    font-weight: bolder;
+    line-height: 1.4;
+  }
+  .card .left h1 span {
+    color: #aa5cdb;
+  }
+  .card .left p {
+    margin: 0 50px;
+    font-size: 15px;
+    line-height: 1.4;
+    text-transform: capitalize;
+  }
+  .card .right {
+    height: 100%;
+    width: 100%;
+  }
+  .card .right img {
+    height: 100%;
+    width: 100%;
+  }
+  .card .right::after {
+    content: " ";
+    position: absolute;
+    left: 645px;
+    top: 130px;
+    width: 40.6%;
+    height: 60%;
+    background-color: #aa5cdb;
+    z-index: 999999999;
+    opacity: 0.8;
+  }
+  .card .ul {
+    margin: 30px 20px;
+  }
+  .card .ul ul {
+    list-style: none;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+  }
+  .card .ul ul li {
+    padding: 0 80px 0 0px;
+  }
+  .card .ul ul li h4 {
+    font-weight: bold;
+  }
+  .card .ul ul li h4 span {
+    font-size: 22px;
+    position: relative;
+    top: 1px;
+  }
+  .card .ul ul li p {
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 10px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
