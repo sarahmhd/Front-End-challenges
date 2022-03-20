@@ -16,7 +16,7 @@
 |9-single-price-grid-component-master| [click here](https://github.com/sarahmhd/Front-End-challenges/tree/main/single-price-grid-component-master)|
 |10-stats-preview-card-component-main| [click here](https://github.com/sarahmhd/Front-End-challenges/tree/main/stats-preview-card-component-main)|
 |11-testimonials-grid-section-main| [click here](https://github.com/sarahmhd/Front-End-challenges/tree/main/testimonials-grid-section-main)|
-|12-base-apparel-coming-soon-master | [click here](https://github.com/sarahmhd/Front-End-challenges/tree/main/base-apparel-coming-soon-master)|
+|12-tip-calculator-app-main | [click here](https://github.com/sarahmhd/Front-End-challenges/tree/main/base-apparel-coming-soon-master)|
 |                                  |               |
 |                                  |               |
 |                                  |               |
