@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@200&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #0d192b;
+  font-family: 'Outfit', sans-serif;
+  -webkit-font-language-override: swsh;
+          font-language-override: swsh;
+  height: 120vh;
+  color: #FFF;
+}
+
+body .attribution {
+  width: 30%;
+  margin: 107px auto;
+  background: #14253d;
+  border-radius: 20px;
+}
+
+body .attribution .image {
+  padding: 30px;
+  border-radius: 10px;
+  height: 25%;
+  position: relative;
+}
+
+body .attribution .image img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+body .attribution .image .overlay {
+  position: absolute;
+  border-radius: 10px;
+  left: 30px;
+  top: 30px;
+  width: 84.5%;
+  height: 84.5%;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  background: #00fff7;
+  opacity: 0;
+}
+
+body .attribution .image .overlay img {
+  width: 48px;
+  margin: 44%;
+}
+
+body .attribution .image:hover .overlay {
+  opacity: 0.5;
+}
+
+body .attribution .equilibrium {
+  margin: -5px 30px 0;
+}
+
+body .attribution .equilibrium h1 {
+  font-size: 23px;
+  font-weight: bold;
+}
+
+body .attribution .equilibrium p {
+  opacity: 0.5;
+  line-height: 1.7;
+}
+
+body .attribution .equilibrium .div {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+}
+
+body .attribution .equilibrium .div .eq-left,
+body .attribution .equilibrium .div .eq-right {
+  margin-top: 11px;
+}
+
+body .attribution .equilibrium .div .eq-left span,
+body .attribution .equilibrium .div .eq-right span {
+  color: #00fff7;
+}
+
+body .attribution .equilibrium .div .eq-left p,
+body .attribution .equilibrium .div .eq-right p {
+  display: inline;
+  margin-left: 8px;
+  opacity: 1;
+}
+
+body .attribution .equilibrium .div .eq-right {
+  text-align: end;
+}
+
+body .attribution hr {
+  width: 80%;
+  opacity: 0.5;
+  margin-top: 15px;
+}
+
+body .attribution .footer {
+  padding-bottom: 70px;
+}
+
+body .attribution .footer img {
+  width: 33px;
+  margin: 11px 30px;
+  border: 1px solid;
+  border-radius: 50%;
+}
+
+body .attribution .footer p {
+  margin: -41px 79px;
+  font-weight: bold;
+  opacity: 0.5;
+}
+
+body .attribution .footer p span {
+  opacity: 1;
+}
+
+body .attribution .footer p span:hover {
+  color: #00fff7;
+}
+/*# sourceMappingURL=style.css.map */

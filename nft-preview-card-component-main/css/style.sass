@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200&display=swap')
+
+@import 'componnent'
+body
+
+    margin: 0
+    padding: 0
+    background-color: $Very-dark-blue-main-BG
+    font-family: 'Outfit', sans-serif
+    font-language-override: swsh
+    height: 120vh
+    color: #FFF
+
+    .attribution
+        width: 30%
+        margin: 107px auto
+        background: $Very-dark-blue-card-BG
+        border-radius: 20px
+
+        .image
+            padding: 30px
+            border-radius: 10px
+            height: 25%
+            position: relative
+            img
+                width: 100%
+                border-radius: 10px
+            .overlay
+                position: absolute
+                border-radius: 10px
+                left: 30px
+                top: 30px
+                width: 84.5%
+                height: 84.5%
+                transition: all 0.5s ease
+                background: $Cyan
+                opacity: 0
+                img
+                    width: 48px
+                    margin: 44%
+            &:hover .overlay
+                opacity: 0.5
+
+        .equilibrium
+            margin: -5px 30px 0
+            h1
+                font-size: 23px
+                font-weight: bold
+            p
+                opacity: 0.5
+                line-height: 1.7
+            .div
+                display: grid
+                grid-template-columns: 1fr 1fr
+                .eq-left,
+                .eq-right
+                    margin-top: 11px
+                    span
+                        color: $Cyan
+                    p
+                        display: inline
+                        margin-left: 8px
+                        opacity: 1
+                .eq-right
+                    text-align: end
+        hr
+            width: 80%
+            opacity: 0.5
+            margin-top: 15px
+        .footer
+            padding-bottom: 70px
+            img
+                width: 33px
+                margin: 11px 30px
+                border: 1px solid
+                border-radius: 50%
+            p
+                margin: -41px 79px
+                font-weight: bold
+                opacity: 0.5
+                span
+                    opacity: 1
+                    &:hover
+                        color: $Cyan
