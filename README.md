@@ -13,7 +13,7 @@
 |6- First-Html-Css                 | [click here](https://github.com/sarahmhd/Front-End-challenges/tree/main/First-Html-Css)|
 |7-intro-component-with-signup-form-master| [click here](https://github.com/sarahmhd/Front-End-challenges/tree/main/intro-component-with-signup-form-master)|
 |8-nft-preview-card-component-main | [click here](https://github.com/sarahmhd/Front-End-challenges/tree/main/nft-preview-card-component-main)|
-|9-four-card-feature-section-master| [click here](https://github.com/sarahmhd/Front-End-challenges/tree/main/four-card-feature-section-master)|
+|9-single-price-grid-component-master| [click here](https://github.com/sarahmhd/Front-End-challenges/tree/main/four-card-feature-section-master)|
 |10- Fylo dark theme landing page   | [click here](https://github.com/sarahmhd/Front-End-challenges/tree/main/fylo-dark-theme-landing-page-master)|
 |11-article-preview-component-master| [click here](https://github.com/sarahmhd/Front-End-challenges/tree/main/article-preview-component-master)|
 |11-base-apparel-coming-soon-master | [click here](https://github.com/sarahmhd/Front-End-challenges/tree/main/base-apparel-coming-soon-master)|
