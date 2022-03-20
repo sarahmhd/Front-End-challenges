@@ -1,0 +1,185 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200&display=swap");
+.invert {
+  -webkit-filter: invert(1);
+          filter: invert(1);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #e5e5e5;
+  background-image: url("../images/pattern-background-desktop.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  font-family: 'Manrope', sans-serif;
+  height: 100vh;
+  max-width: 1440px;
+}
+
+body .card {
+  height: 70vh;
+  width: 70vw;
+  margin: 10% auto;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 60% 40%;
+      grid-template-columns: 60% 40%;
+  background-color: #FFF;
+  -webkit-box-shadow: 10px 10px 3px #dbd6d6, -10px 10px 3px #dbd6d6;
+          box-shadow: 10px 10px 3px #dbd6d6, -10px 10px 3px #dbd6d6;
+  border-radius: 6px;
+}
+
+body .card .right {
+  background-image: url("../images/bg-pattern-desktop.svg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 70vh;
+  border-radius: 6px;
+}
+
+body .card .right .logo, body .card .right h1, body .card .right p, body .card .right form {
+  width: 50%;
+  margin: auto;
+}
+
+body .card .right .logo {
+  padding: 34px 0 60px;
+}
+
+body .card .right .logo img {
+  width: 35%;
+}
+
+body .card .right h1 {
+  font-size: 40px;
+  letter-spacing: 11px;
+  text-transform: uppercase;
+  font-family: system-ui;
+  font-weight: normal;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+body .card .right h1 span {
+  font-weight: 200;
+  color: #ce9797;
+}
+
+body .card .right p {
+  padding: 20px 0;
+  font-size: 11px;
+  color: #ce9797;
+  line-height: 1.8;
+  opacity: 0.8;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+body .card .right input {
+  border: 0.2px solid #ce9797;
+  padding: 10px 47px 10px 16px;
+  border-radius: 27px;
+  outline: none;
+}
+
+body .card .right input::-webkit-input-placeholder {
+  color: #ce9797;
+}
+
+body .card .right input:-ms-input-placeholder {
+  color: #ce9797;
+}
+
+body .card .right input::-ms-input-placeholder {
+  color: #ce9797;
+}
+
+body .card .right input::placeholder {
+  color: #ce9797;
+}
+
+body .card .right .error-icon {
+  display: inline;
+  position: absolute;
+  left: 40%;
+  top: 74.3%;
+  width: 15px;
+  height: 15px;
+  display: none;
+}
+
+body .card .right .visible {
+  display: block;
+}
+
+body .card .right .visible img {
+  width: 100%;
+}
+
+body .card .right button {
+  position: absolute;
+  left: 41.5%;
+  top: 72.5%;
+  width: 74px;
+  height: 40px;
+  border-radius: 75px;
+  border: none;
+  background-image: linear-gradient(135deg, #f8bfbf, #ee8c8c);
+  outline: none;
+  cursor: pointer;
+}
+
+body .card .right button:hover {
+  background-image: linear-gradient(135deg, #f5f0f0, #ee8c8c);
+  -webkit-box-shadow: -3px 9px 8px #e7cece;
+          box-shadow: -3px 9px 8px #e7cece;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+body .card .right button img {
+  width: 9px;
+}
+
+body .card .right .error-msg {
+  font-size: 10px;
+  margin: 8px 19px;
+  color: #f96262;
+  text-transform: capitalize;
+  display: none;
+}
+
+body .card .right .visible {
+  display: block;
+}
+
+body .card .left {
+  height: 70vh;
+  border-radius: 6px;
+}
+
+body .card .left img {
+  height: 100%;
+  width: 100%;
+  border-radius: 0 6px 6px 0;
+}
+
+body .dark {
+  position: absolute;
+  top: 25px;
+  left: 29px;
+  border: none;
+  border-radius: 30px;
+  padding: 10px 15px;
+  background-color: #000;
+  color: #FFF;
+  cursor: pointer;
+}
+/*# sourceMappingURL=style.css.map */

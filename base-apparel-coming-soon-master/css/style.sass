@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200&display=swap')
+
+@import 'componnent'
+.invert
+    filter: invert(1)
+body
+
+    margin: 0
+    padding: 0
+    background-color: #e5e5e5
+    background-image: url("../images/pattern-background-desktop.svg")
+    background-repeat: no-repeat
+    background-size: cover
+    background-position: bottom
+    font-family: 'Manrope', sans-serif
+    height: 100vh
+    max-width: 1440px
+
+    .card
+        height: 70vh
+        width: 70vw
+        margin: 10% auto
+        display: grid
+        grid-template-columns: 60% 40%
+        background-color: #FFF
+        box-shadow: 10px 10px 3px #dbd6d6, -10px 10px 3px #dbd6d6
+        border-radius: 6px
+
+        .right
+            background-image: url("../images/bg-pattern-desktop.svg")
+            background-position: center
+            background-size: cover
+            background-repeat: no-repeat
+            height: 70vh
+            border-radius: 6px
+
+            .logo, h1, p , form
+                width: 50%
+                margin: auto
+            .logo
+                padding: 34px 0 60px
+
+                img
+                    width: 35%
+            h1
+                font-size: 40px
+                letter-spacing: 11px
+                text-transform: uppercase
+                font-family: system-ui
+                font-weight: normal
+                user-select: none
+
+                span
+                    font-weight: 200
+                    color: $Desaturated-Red
+            p
+                padding: 20px 0
+                font-size: 11px
+                color: $Desaturated-Red
+                line-height: 1.8
+                opacity: 0.8
+                user-select: none
+            input
+                border: 0.2px solid $Desaturated-Red
+                padding: 10px 47px 10px 16px
+                border-radius: 27px
+                outline: none
+                &::placeholder
+                    color: $Desaturated-Red
+            .error-icon
+                display: inline
+                position: absolute
+                left: 40%
+                top: 74.3%
+                width: 15px
+                height: 15px
+                display: none
+            .visible
+                display: block
+                img
+                    width: 100%
+            button
+                position: absolute
+                left: 41.5%
+                top: 72.5%
+                width: 74px
+                height: 40px
+                border-radius: 75px
+                border: none
+                background-image: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%))
+                outline: none
+                cursor: pointer
+                &:hover
+                    background-image: linear-gradient(135deg, hsl(0, 20%, 95%), hsl(0, 74%, 74%))
+                    box-shadow: -3px 9px 8px #e7cece
+                    transition: all 0.3s ease-in-out
+
+                img
+                    width: 9px
+
+            .error-msg
+                font-size: 10px
+                margin: 8px 19px
+                color: $Soft-Red
+                text-transform: capitalize
+                display: none
+
+            .visible
+                display: block
+
+        .left
+            height: 70vh
+            border-radius: 6px
+
+            img
+                height: 100%
+                width: 100%
+                border-radius: 0 6px 6px 0
+    .dark
+        position: absolute
+        top: 25px
+        left: 29px
+        border: none
+        border-radius: 30px
+        padding: 10px 15px
+        background-color: #000
+        color: #FFF
+        cursor: pointer

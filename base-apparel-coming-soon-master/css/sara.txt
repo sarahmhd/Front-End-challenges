@@ -1,0 +1,25 @@
+../../stats-preview-card-component-main/css/style.sass://             background-color: $Dark-desaturated-blue-card-background
+../../stats-preview-card-component-main/css/style.sass:        background-color: $Very-dark-blue-main-background
+../../stats-preview-card-component-main/css/style.sass:        background-color: $Dark-desaturated-blue-card-background
+../../stats-preview-card-component-main/css/_componnent.sass:$Very-dark-blue-main-background: hsl(233, 47%, 7%)
+../../stats-preview-card-component-main/css/_componnent.sass:$Dark-desaturated-blue-card-background: hsl(244, 38%, 16%)
+../../stats-preview-card-component-main/style-guide.md:- Very dark blue (main background): hsl(233, 47%, 7%)
+../../stats-preview-card-component-main/style-guide.md:- Dark desaturated blue (card background): hsl(244, 38%, 16%)
+../../First-Html-Css/css/style.css:  background-color: aliceblue;
+../../First-Html-Css/css/style.css:  color: blue;
+../../First-Html-Css/css/style.css:  background-color: blue;
+../../First-Html-Css/css/style.sass:    background-color: $Pale-blue
+../../First-Html-Css/css/style.sass:    background-color: aliceblue
+../../First-Html-Css/css/style.sass:        background-color: $Very-pale-blue
+../../First-Html-Css/css/style.sass:            color: blue
+../../First-Html-Css/css/style.sass:        background-color: blue
+../../First-Html-Css/css/_componnent.sass:$Pale-blue: hsl(225, 100%, 94%);
+../../First-Html-Css/css/_componnent.sass:$Bright-blue: hsl(245, 75%, 52%);
+../../First-Html-Css/css/_componnent.sass:$Very-pale-blue: hsl(225, 100%, 98%);
+../../First-Html-Css/css/_componnent.sass:$Desaturated-blue: hsl(224, 23%, 55%);
+../../First-Html-Css/css/_componnent.sass:$Dark-blue: hsl(223, 47%, 23%);
+../../faq-accordion-card-main/style-guide.md:- Very dark desaturated blue: hsl(238, 29%, 16%)
+../../faq-accordion-card-main/style-guide.md:- Soft blue: hsl(240, 73%, 65%)
+../../faq-accordion-card-main/style-guide.md:- Very dark grayish blue: hsl(237, 12%, 33%)
+../../faq-accordion-card-main/style-guide.md:- Dark grayish blue: hsl(240, 6%, 50%)
+../../faq-accordion-card-main/style-guide.md:- Light grayish blue: hsl(240, 5%, 91%)
