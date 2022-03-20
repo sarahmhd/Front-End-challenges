@@ -1,4 +1,4 @@
-# Frontend Mentor - FAQ accordion card
+# Frontend  - FAQ accordion card
 
-![Design preview for the FAQ accordion card coding challenge](./design/desktop-preview.jpg)
+![Design preview for the FAQ accordion card coding challenge](https://github.com/sarahmhd/Front-End-challenges/blob/main/faq-accordion-card-main/design/design.png)
 
