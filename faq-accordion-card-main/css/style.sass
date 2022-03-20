@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital@0;1&display=swap')
+
+@import 'componnent'
+body
+
+    margin: 0
+    padding: 0
+    //background-color: gray
+    background-image: linear-gradient(to bottom , $Soft-violet ,$Soft-blue)
+    font-family: 'Space Mono', monospace
+    min-height: 100vh
+    max-width: 1440px
+    overflow: hidden
+
+    .body
+        width: 65%
+        min-height: 80vh
+        background-color: #FFF
+        margin: 5% auto
+        border-radius: 20px
+        display: flex
+        grid-template-columns: 1fr 1fr
+        font-size: 12px
+
+        .left
+            width: 50%
+            background-image: url(../images/illustration-woman-online-desktop.svg)
+            background-position: -217% 50%
+            background-repeat: no-repeat
+            background-size: 400px
+            filter: drop-shadow(1px 92px 4px #dfdbdb)
+
+            img
+                width: 171px
+                position: absolute
+                top: 40%
+                left: -115px
+                filter: none 0!important
+                overflow: hidden
+
+        .right
+            width: 50%
+            .in
+                padding-top: 30px
+                h1
+                    font-size: 36px
+                    margin-bottom: 30px
+                .box
+                    width: 80%
+                    letter-spacing: -1px
+                    img
+                        float: right
+                        margin-right: 15px
+                        margin-top: 10px
+                    .rotate
+                        transform: rotate(180deg)
+                        transition: all 0.5s
+
+                    h3
+                        color: $Very-dark-desaturated-blue
+                        opacity: 0.7
+                        font-weight: 100
+                        &:hover
+                            color: $Soft-red
+                            cursor: pointer
+                            transition: all 0.5s
+                    p
+                        display: none
+                        color: gray
+                    .hidden
+                        display: block
+                    hr
+                        border: none
+                        height: 1px
+                        background-color: #d7d3d3
+                        margin: 20px 0

@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:ital@0;1&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#af67e9), to(#6565e7));
+  background-image: linear-gradient(to bottom, #af67e9, #6565e7);
+  font-family: 'Space Mono', monospace;
+  min-height: 100vh;
+  max-width: 1440px;
+  overflow: hidden;
+}
+
+body .body {
+  width: 65%;
+  min-height: 80vh;
+  background-color: #FFF;
+  margin: 5% auto;
+  border-radius: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  font-size: 12px;
+}
+
+body .body .left {
+  width: 50%;
+  background-image: url(../images/illustration-woman-online-desktop.svg);
+  background-position: -217% 50%;
+  background-repeat: no-repeat;
+  background-size: 400px;
+  -webkit-filter: drop-shadow(1px 92px 4px #dfdbdb);
+          filter: drop-shadow(1px 92px 4px #dfdbdb);
+}
+
+body .body .left img {
+  width: 171px;
+  position: absolute;
+  top: 40%;
+  left: -115px;
+  -webkit-filter: none 0 !important;
+          filter: none 0 !important;
+  overflow: hidden;
+}
+
+body .body .right {
+  width: 50%;
+}
+
+body .body .right .in {
+  padding-top: 30px;
+}
+
+body .body .right .in h1 {
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+
+body .body .right .in .box {
+  width: 80%;
+  letter-spacing: -1px;
+}
+
+body .body .right .in .box img {
+  float: right;
+  margin-right: 15px;
+  margin-top: 10px;
+}
+
+body .body .right .in .box .rotate {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+body .body .right .in .box h3 {
+  color: #1d1e35;
+  opacity: 0.7;
+  font-weight: 100;
+}
+
+body .body .right .in .box h3:hover {
+  color: #f47c57;
+  cursor: pointer;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+body .body .right .in .box p {
+  display: none;
+  color: gray;
+}
+
+body .body .right .in .box .hidden {
+  display: block;
+}
+
+body .body .right .in .box hr {
+  border: none;
+  height: 1px;
+  background-color: #d7d3d3;
+  margin: 20px 0;
+}
+/*# sourceMappingURL=style.css.map */
