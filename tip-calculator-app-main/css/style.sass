@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital@0;1&display=swap')
+@import 'componnent'
+body
+
+    margin: 0
+    padding: 0
+    background-color: $Light-grayish-cyan1
+    background-image: url("../images/pattern-background-desktop.svg")
+    background-repeat: no-repeat
+    background-size: cover
+    background-position: bottom
+    font-family: 'Space Mono', monospace
+    height: 100vh
+    max-width: 1440px
+    text-transform: capitalize
+
+    h2
+        text-align: center
+        text-transform: uppercase
+        letter-spacing: 7px
+        font-size: 17px
+        color: $Very-dark-cyan
+        margin-top: 5%
+    input
+        @include input
+        &:focus
+            outline: 1px solid $Strong-cyan
+
+    span
+        img
+            @include svg
+
+    .attribution
+        width: 45%
+        height: 45%
+        background-color: #FFF
+        display: grid
+        grid-template-columns: 1fr 1fr
+        margin: 6% auto
+        border-radius: 20px
+        padding: 20px 40px
+        font-size: 10px
+
+        .left
+            form
+                .bill
+                    margin-bottom: 20px
+                    h3
+                        @include h3property
+                    input
+                        padding: 10px 24px
+                        margin-left: -20px
+
+                        &::placeholder
+                            color: $Strong-cyan
+                            float: right
+
+                .tip
+                    width: 94%
+                    h3
+                        @include h3property
+                    .allBtn
+                        display: grid
+                        grid-template-columns: 1fr 1fr 1fr
+                        margin-bottom: 20px
+                        gap: 10px
+                        width: 94%
+                        .tipper,
+                        input
+                            padding: 5px 15px
+                            border: none
+                            outline: none
+                            font-size: 13px
+                            border-radius: 4px
+                            text-align: center
+                        .tipper
+                            background-color: $Very-dark-cyan
+                            color: #fff
+                            &:hover
+                                background-color: $Strong-cyan
+                                color: $Very-dark-cyan
+
+                        input
+                            width: 51px
+                            background-color: aliceblue
+                            margin-left: 0px
+                            border: none
+                            &::placeholder
+                                color: $Very-dark-cyan
+                            &:focus
+                                outline: 1px solid $Strong-cyan
+
+                .numPeople
+                    h3
+                        @include h3property
+
+        .right
+            background-color: $Very-dark-cyan
+            border-radius: 20px
+            color: #FFF
+            width: 90%
+            padding: 40px 25px
+            overflow: hidden
+            .tip_amount
+                display: flex
+                justify-content: space-between
+                h3
+                    span
+                        opacity: 0.7
+                        font-size: 10px
+                .value
+                    font-size: 30px
+                    color: hsl(172, 67%, 45%)
+            .reset
+                .btn_reset
+                    padding: 10px 111px
+                    margin-top: 23%

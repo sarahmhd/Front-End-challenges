@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./?/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Frontend Mentor | Tip calculator app</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  </head>
+  <body>
+    <h2>
+      spli <br />
+      tter
+    </h2>
+    <div class="attribution">
+      <div class="left">
+        <form action="">
+          <div class="bill">
+            <h3>bill</h3>
+            <span><img src="images/icon-dollar.svg" alt="" /></span>
+            <input class="billInput" type="text" placeholder="0" />
+          </div>
+          <div class="tip">
+            <h3>Select Tip %</h3>
+            <div class="allBtn">
+              <div class="tipper" onclick="">5%</div>
+              <div class="tipper" onclick="">10%</div>
+              <div class="tipper" onclick="">15%</div>
+              <div class="tipper" onclick="">25%</div>
+              <div class="tipper" onclick="">50%</div>
+              <input type="text" placeholder="Custom" />
+            </div>
+          </div>
+          <div class="numPeople">
+            <h3>Number of People</h3>
+            <span><img src="images/icon-person.svg" alt="" /></span>
+            <input type="text" placeholder="0" />
+          </div>
+        </form>
+      </div>
+      <div class="right">
+        <div class="tip_amount">
+          <h3>
+            Tip Amount <br />
+            <span>/ person</span>
+          </h3>
+          <div class="value">$0.00</div>
+        </div>
+        <div class="total tip_amount">
+          <h3>
+            Total <br />
+            <span>/ person</span>
+          </h3>
+          <div class="value">$0.00</div>
+        </div>
+
+        <div class="reset">
+          <button class="btn_reset" disabled>Reset</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
