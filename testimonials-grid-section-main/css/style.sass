@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital@0;1&display=swap')
+
+@import 'componnent'
+body
+
+    margin: 0
+    padding: 0
+    background-color: $Light-gray
+    font-family: 'Space Mono', monospace
+    font-language-override: 'swsh'
+    // height: 100vh
+    color: #FFF
+
+    .attribution
+        width: 80%
+        margin: 91px auto
+        // background: $White
+        // border-radius: 20px
+        display: grid
+        grid-template-areas: "Daniel Daniel Jonathan Kira" "Jeanette Patrick Patrick Kira"
+        grid-template-columns: repeat( 4 , 250px)
+        grid-template-rows: repeat( 2 , 260px) 
+        grid-gap: 20px
+
+        .Daniel
+            grid-area: Daniel
+        .Jonathan
+            grid-area: Jonathan
+        .Kira
+            grid-area: Kira
+        .Jeanette
+            grid-area: Jeanette
+        .Patrick
+            grid-area: Patrick
+
+        .Daniel,
+        .Jonathan,
+        .Kira,
+        .Jeanette,
+        .Patrick
+            // max-height: 220px
+            // max-width: 440px
+            border-radius: 10px
+            padding: 20px 35px 0 35px
+            line-height: 1.444445
+            .info
+                display: grid
+                grid-template-columns: 67px 1fr
+                // padding: 20px
+                img
+                    width: 35px
+                    border-radius: 50%
+                    border: 1px solid
+                .name
+                    line-height: 0.1
+                    font-size: 12px
+                    margin: -6px -15px
+            .content
+                // font-size: 13px
+                h3
+                    font-size: 13px
+                blockquote
+                    font-size: 10px
+                    margin: 0
+
+        .Daniel
+            background: $Moderate-violet
+            // width: 440px
+        .Jonathan
+            background: $Very-dark-grayish-blue
+        .Kira
+            background: $White
+            color: #000
+            min-height: 220px
+        .Jeanette
+            background: $White
+            color: #000
+        .Patrick
+            background: $Very-dark-blackish-blue
+            // width: 440px

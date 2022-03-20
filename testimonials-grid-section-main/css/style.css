@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:ital@0;1&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #cfcfcf;
+  font-family: 'Space Mono', monospace;
+  -webkit-font-language-override: 'swsh';
+          font-language-override: 'swsh';
+  color: #FFF;
+}
+
+body .attribution {
+  width: 80%;
+  margin: 91px auto;
+  display: -ms-grid;
+  display: grid;
+      grid-template-areas: "Daniel Daniel Jonathan Kira" "Jeanette Patrick Patrick Kira";
+  -ms-grid-columns: (250px)[4];
+      grid-template-columns: repeat(4, 250px);
+  -ms-grid-rows: (260px)[2];
+      grid-template-rows: repeat(2, 260px);
+  grid-gap: 20px;
+}
+
+body .attribution .Daniel {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: Daniel;
+}
+
+body .attribution .Jonathan {
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+  grid-area: Jonathan;
+}
+
+body .attribution .Kira {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 4;
+  grid-area: Kira;
+}
+
+body .attribution .Jeanette {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: Jeanette;
+}
+
+body .attribution .Patrick {
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 2;
+  grid-area: Patrick;
+}
+
+body .attribution .Daniel,
+body .attribution .Jonathan,
+body .attribution .Kira,
+body .attribution .Jeanette,
+body .attribution .Patrick {
+  border-radius: 10px;
+  padding: 20px 35px 0 35px;
+  line-height: 1.444445;
+}
+
+body .attribution .Daniel .info,
+body .attribution .Jonathan .info,
+body .attribution .Kira .info,
+body .attribution .Jeanette .info,
+body .attribution .Patrick .info {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 67px 1fr;
+      grid-template-columns: 67px 1fr;
+}
+
+body .attribution .Daniel .info img,
+body .attribution .Jonathan .info img,
+body .attribution .Kira .info img,
+body .attribution .Jeanette .info img,
+body .attribution .Patrick .info img {
+  width: 35px;
+  border-radius: 50%;
+  border: 1px solid;
+}
+
+body .attribution .Daniel .info .name,
+body .attribution .Jonathan .info .name,
+body .attribution .Kira .info .name,
+body .attribution .Jeanette .info .name,
+body .attribution .Patrick .info .name {
+  line-height: 0.1;
+  font-size: 12px;
+  margin: -6px -15px;
+}
+
+body .attribution .Daniel .content h3,
+body .attribution .Jonathan .content h3,
+body .attribution .Kira .content h3,
+body .attribution .Jeanette .content h3,
+body .attribution .Patrick .content h3 {
+  font-size: 13px;
+}
+
+body .attribution .Daniel .content blockquote,
+body .attribution .Jonathan .content blockquote,
+body .attribution .Kira .content blockquote,
+body .attribution .Jeanette .content blockquote,
+body .attribution .Patrick .content blockquote {
+  font-size: 10px;
+  margin: 0;
+}
+
+body .attribution .Daniel {
+  background: #7541c8;
+}
+
+body .attribution .Jonathan {
+  background: #48556a;
+}
+
+body .attribution .Kira {
+  background: white;
+  color: #000;
+  min-height: 220px;
+}
+
+body .attribution .Jeanette {
+  background: white;
+  color: #000;
+}
+
+body .attribution .Patrick {
+  background: #19212e;
+}
+/*# sourceMappingURL=style.css.map */
