@@ -10,3 +10,271 @@
     padding: 0
     box-sizing: border-box
     font-family: $Family
+
+body
+    background-color: $Dark-Bluetestimonials
+    color: $White
+    font-family: $Family
+
+    header
+        margin: 75px 95px 0
+        display: flex
+        flex-direction: row
+        justify-content: space-between
+        .logo
+            height: 56px
+            &:hover
+                border-bottom: 1px solid $Cyan
+                transition: 0.5s all ease
+        .menu
+            ul
+                list-style: none
+                display: flex
+                li
+                    padding-right: 55px
+                    outline: none
+                    a
+                        text-decoration: none
+                        color: $White
+                        font-size: 16px
+                        &:hover
+                            color: $Cyan
+                            border-bottom: 1px solid $Cyan
+                            transition: 0.5s all ease
+
+    main
+        .store
+            .store_img
+                img
+                    margin: 55px 283px
+            .div
+                background-image: url("./images/bg-curvy-desktop.svg")
+                height: 70vh
+                background-position: bottom
+                background-repeat: no-repeat
+                .store_info
+                    width: 55%
+                    text-align: center
+                    margin: auto
+                    background-repeat: no-repeat
+                    background-size: cover
+                    h1
+                        font-family: 'Raleway', sans-serif
+                        font-size: 35px
+                        font-weight: bolder
+                        line-height: 1.5
+                        padding-bottom: 27px
+                    p
+                        width: 77%
+                        margin: auto
+                        font-size: 18px
+                        line-height: 1.5
+                .store_button
+                    display: inline-block
+                    text-align: center
+                    padding: 17px 91px
+                    border-radius: 29px
+                    background-image: linear-gradient(45deg, $Cyan, $Blue)
+                    position: relative
+                    left: 39.8%
+                    top: 55px
+                    cursor: pointer
+                    &:hover
+                        transform: translate(0px, -8px)
+                        box-shadow: 0px 9px 16px -6px $Blue
+                        transition: 0.5s all ease
+                    a
+                        text-decoration: none
+                        color: white
+                        font-weight: bold
+
+        .features
+            background-color: $Dark-Bluemain
+            .features_grid
+                display: flex
+                flex-wrap: wrap
+                width: 77%
+                align-content: space-between
+                justify-content: space-between
+                margin: auto
+                margin-top: -10px
+                grid-row-gap: 100px
+                .feature_num
+                    display: flex
+                    flex-direction: column
+                    width: 35%
+                    text-align: center
+                    grid-gap: 15px
+                    img
+                        width: 65px
+                        margin: auto
+
+        .productive
+            background-color: $Dark-Bluemain
+            .productive_grid
+                display: grid
+                grid-template-columns: 1fr 1fr
+                padding: 172px 71px
+                justify-content: space-around
+                align-items: center
+                grid-gap: 91px
+                .productive_right
+                    // line-height: 1.5
+                    h1
+                        font-size: 39px
+                        font-family: 'Raleway', sans-serif
+                        font-weight: bolder
+                        line-height: 1.5
+                    p
+                        font-size: 15px
+                        padding-top: 20px
+                    .how_work
+                        display: inline-block
+                        padding: 20px 0 5px
+                        border-bottom: 1px solid $Cyan
+                        cursor: pointer
+                        &:hover
+                            width: 172px
+                            transition: 2s all ease
+                            a
+                                transition: 0.5s all ease
+                                display: inline-block
+                                transform: translate(13px, 0px)
+                        a
+                            text-decoration: none
+                            color: $Cyan
+                            img
+                                width: 13px
+                                margin: -2px 0
+
+        .comments
+            height: 85vh
+            background-color: $Dark-Bluemain
+            .quote_icom
+                position: relative
+                .img
+                    position: absolute
+                    left: 42px
+                    top: -34px
+                .comments_grid
+                    display: grid
+                    grid-template-columns: 1fr 1fr 1fr
+                    padding: 0 52px
+                    grid-gap: 47px
+                    position: relative
+                    .comment
+                        user-select: none
+                        height: 100%
+                        background-color: #202a3c
+                        font-size: 14px
+                        border-radius: 4px
+                        padding: 40px 40px 25px
+                        &:hover
+                            transform: rotateZ(3deg)
+                            box-shadow: 13px 13px 30px #0b0c0e
+                            transition: 0.5s all ease-in-out
+                        p
+                            line-height: 1.5
+                            padding-bottom: 21px
+                        .comment_profile
+                            display: flex
+                            align-items: flex-end
+                            justify-content: flex-start
+                            font-size: 10px
+                            grid-gap: 9px
+                            .profile_img
+                                img
+                                    width: 25px
+                                    border-radius: 50%
+                            .profile_info
+                                h4
+                                    padding-bottom: 2px
+                                span
+                                    opacity: 0.9
+        .access
+            position: relative
+            background-color: $Dark-Blueintro
+            width: 67%
+            top: -150px
+            left: 50%
+            transform: translate(-50%, 0px)
+            padding: 49px 83px
+            text-align: center
+            line-height: 1.6
+            h3
+                font-family: $Family-heading
+                font-size: 29px
+                font-weight: bolder
+            p
+                font-size: 14px
+                padding: 25px 0
+
+            .form_get_started
+                text-align: start
+                input
+                    padding: 15px 249px 15px 35px
+                    border-radius: 56px
+                    border: none
+                    outline: none
+                    font-size: 14px
+                ::placeholder
+                    color: #c9c7c7
+                button
+                    display: inline-block
+                    text-align: center
+                    padding: 17px 45px
+                    border-radius: 29px
+                    background-image: linear-gradient(45deg, #65e2d9, #339ecc)
+                    position: relative
+                    left: 2.8%
+                    top: -1px
+                    cursor: pointer
+                    border: none
+                    outline: none
+                    color: #fff
+                    font-weight: bolder
+                    &:hover
+                        transform: translate(0px, -8px)
+                        box-shadow: 0px 9px 16px -6px $Blue
+                        transition: 0.5s all ease
+
+    footer
+        background-color: $Dark-Bluefooter
+        margin-top: -22.3%
+        padding: 218px 35px
+        height: 80vh
+        .footer_content
+            display: flex
+            align-items: flex-start
+            margin-top: 51px
+            grid-gap: 65px
+            ul
+                list-style: none
+                li
+                    padding-bottom: 20px
+                    img
+                        width: 21px
+                    a
+                        text-decoration: none
+                        color: white
+                    div
+                        display: flex
+                        grid-gap: 21px
+
+            .location
+                width: 32%
+                display: flex
+                flex-direction: row
+                align-items: flex-start
+                column-gap: 21px
+            .social
+                ul
+                    display: flex
+                    li
+                        padding-right: 17px
+                        img
+                            background-color: white
+                            width: 30px
+                            height: 30px
+                            border-radius: 50%
+                            padding: 5px
