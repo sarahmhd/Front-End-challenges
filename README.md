@@ -17,7 +17,7 @@
 |10-stats-preview-card-component-main| [click here](https://github.com/sarahmhd/Front-End-challenges/tree/main/stats-preview-card-component-main)|
 |11-testimonials-grid-section-main| [click here](https://github.com/sarahmhd/Front-End-challenges/tree/main/testimonials-grid-section-main)|
 |12-tip-calculator-app-main | [click here](https://github.com/sarahmhd/Front-End-challenges/tree/main/tip-calculator-app-main)|
-|                                  |               |
+|13-ping-coming-soon-page-master   |[click here](https://github.com/sarahmhd/Front-End-challenges/tree/main/tip-calculator-app-main)               |
 |                                  |               |
 |                                  |               |
 |                                  |               |
