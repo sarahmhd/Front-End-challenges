@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <script src="./app.js" defer></script>
+
+    <title>Frontend Mentor | Ping coming soon page</title>
+
+    <!-- loading font and style sheet -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Libre+Franklin:300,400,400i,600,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/e4e752b27b.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </head>
+  <body>
+    <main>
+      <section class="subForm">
+        <h2>Subscribe and get notified</h2>
+        <div class="subscribe">
+          <label for="email" hidden>email</label>
+          <input
+            type="email"
+            name=""
+            id="email"
+            placeholder="Your email address..."
+            autocomplete="off"
+          />
+          <button>Notify Me</button>
+          <div class="error">Please provide a valid email address</div>
+        </div>
+      </section>
+      <section class="dashboardImage">
+        <img src="images/illustration-dashboard.png" alt="" />
+      </section>
+    </main>
+    <footer>
+      <ul>
+        <li>
+          <ion-icon name="logo-facebook" class="md"></ion-icon>
+        </li>
+        <li>
+          <ion-icon name="logo-twitter" class="md"></ion-icon>
+        </li>
+        <li>
+          <ion-icon name="logo-instagram" class="md"></ion-icon>
+        </li>
+      </ul>
+      <div class="copyright">
+        <p>&copy; Copyright Ping. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>
