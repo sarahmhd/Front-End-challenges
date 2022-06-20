@@ -1,0 +1,307 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@200&display=swap");
+html body {
+  margin: 0;
+  padding: 0;
+  background-color: transparent;
+  font-family: 'Outfit', sans-serif;
+  height: 120vh;
+}
+
+html body header,
+html body .lastSection {
+  height: 100vh;
+  background: url(../images/bg-header-desktop.png) no-repeat top center;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+html body header .logo,
+html body .lastSection .logo {
+  margin-top: -65px;
+}
+
+html body header .logo img,
+html body .lastSection .logo img {
+  width: 110px;
+}
+
+html body header .history h1,
+html body .lastSection .history h1 {
+  margin: 68px 0 30px 0;
+  font-size: 40px;
+  opacity: 0.7;
+  font-weight: bold;
+}
+
+html body header .history p,
+html body .lastSection .history p {
+  width: 69%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0px auto 35px;
+  font-size: 17px;
+  color: gray;
+}
+
+html body header .buttons button,
+html body .lastSection .buttons button {
+  padding: 17px 30px;
+  border-radius: 29px;
+  outline: none;
+  border: none;
+  background-color: aquamarine;
+  cursor: pointer;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  -webkit-box-shadow: 3px 6px 10px -6px #8d8585;
+          box-shadow: 3px 6px 10px -6px #8d8585;
+  margin-right: 15px;
+}
+
+html body header .buttons button:hover,
+html body .lastSection .buttons button:hover {
+  opacity: 0.8;
+  -webkit-transform: scale(1.07);
+          transform: scale(1.07);
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+html body header .buttons .ios,
+html body .lastSection .buttons .ios {
+  background-color: #26baa4;
+}
+
+html body header .buttons .mac,
+html body .lastSection .buttons .mac {
+  background-color: #515dc3;
+}
+
+html body main .snippest,
+html body main .clipboard,
+html body main .workflow {
+  line-height: 1.6;
+}
+
+html body main .snippest .con,
+html body main .clipboard .con,
+html body main .workflow .con {
+  text-align: center;
+  width: 46%;
+  margin: 0 auto;
+  margin-top: -35px;
+  margin-bottom: 60px;
+}
+
+html body main .snippest .con h2,
+html body main .clipboard .con h2,
+html body main .workflow .con h2 {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+html body main .snippest .con p,
+html body main .clipboard .con p,
+html body main .workflow .con p {
+  color: gray;
+}
+
+html body main .snippest .content,
+html body main .clipboard .content,
+html body main .workflow .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+html body main .snippest .content .img img,
+html body main .clipboard .content .img img,
+html body main .workflow .content .img img {
+  width: 594px;
+}
+
+html body main .snippest .content .info,
+html body main .clipboard .content .info,
+html body main .workflow .content .info {
+  width: 25%;
+  margin-left: 122px;
+  margin-top: -40px;
+}
+
+html body main .snippest .content .info .divv h4,
+html body main .clipboard .content .info .divv h4,
+html body main .workflow .content .info .divv h4 {
+  font-size: 20px;
+  margin-bottom: -8px;
+}
+
+html body main .snippest .content .info .divv p,
+html body main .clipboard .content .info .divv p,
+html body main .workflow .content .info .divv p {
+  color: gray;
+  font-size: 15px;
+  width: 93%;
+}
+
+html body main .clipboard {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+html body main .clipboard .con {
+  margin-top: 95px;
+}
+
+html body main .clipboard .content .img img {
+  width: 755px !important;
+}
+
+html body main .workflow .contentItems {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+  text-align: center;
+  width: 90%;
+}
+
+html body main .workflow .contentItems .item {
+  width: calc(90% / 3);
+  margin-left: 35px;
+}
+
+html body main .workflow .contentItems .item .info h4 {
+  font-size: 20px;
+  margin-bottom: 0;
+  margin-top: 35px;
+}
+
+html body main .workflow .contentItems .item .info p {
+  color: gray;
+  width: 95%;
+}
+
+html body main .brands {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 85%;
+  margin: 129px auto;
+}
+
+html body main .lastSection {
+  background-image: none;
+  height: auto;
+  margin-bottom: 115px;
+}
+
+html body footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background: #f6f7f9;
+  padding: 25px 0;
+  line-height: 2.5;
+}
+
+html body footer .logof img {
+  width: 50px;
+  margin-top: 50%;
+}
+
+html body footer .listAll {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-left: -22%;
+}
+
+html body footer .listAll .list {
+  margin-right: -10%;
+}
+
+html body footer .social ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 40px;
+}
+
+html body footer .social ul li {
+  margin-right: 20px;
+}
+
+html body footer .social ul li:hover {
+  color: #26baa4;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  cursor: pointer;
+}
+
+html body footer ul li {
+  list-style: none;
+}
+
+html body footer ul li:hover {
+  color: #26baa4;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  cursor: pointer;
+}
+/*# sourceMappingURL=style.css.map */

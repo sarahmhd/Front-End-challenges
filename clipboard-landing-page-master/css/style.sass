@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200&display=swap')
+
+// font-family: 'Outfit', sans-serif;
+// font-family: 'Outfit', sans-serif;
+@import 'componnent'
+html
+    // filter: invert(1)
+    // background-color: black
+    // color: white
+    body
+
+        margin: 0
+        padding: 0
+        background-color: transparent
+        font-family: 'Outfit', sans-serif
+        height: 120vh
+        header,
+        .lastSection
+            height: 100vh
+            background: url(../images/bg-header-desktop.png) no-repeat top center
+            background-size: cover
+            display: flex
+            flex-direction: column
+            justify-content: center
+            align-items: center
+            text-align: center
+            user-select: none
+            .logo
+                margin-top: -65px
+                img
+                    width: 110px
+            .history
+                h1
+                    margin: 68px 0 30px 0
+                    font-size: 40px
+                    opacity: 0.7
+                    font-weight: bold
+                p
+                    width: 69%
+                    align-items: center
+                    margin: 0px auto 35px
+                    font-size: 17px
+                    color: gray
+            .buttons
+                button
+                    padding: 17px 30px
+                    border-radius: 29px
+                    outline: none
+                    border: none
+                    background-color: aquamarine
+                    cursor: pointer
+                    color: white
+                    font-size: 15px
+                    font-weight: bold
+                    box-shadow: 3px 6px 10px -6px #8d8585
+                    margin-right: 15px
+                    &:hover
+                        opacity: 0.8
+                        transform: scale(1.07)
+                        transition: all 1s
+                .ios
+                    background-color: $Stron-Cyan
+                .mac
+                    background-color: #515dc3
+        main
+            .snippest,
+            .clipboard,
+            .workflow
+                line-height: 1.6
+                .con
+                    text-align: center
+                    width: 46%
+                    margin: 0 auto
+                    margin-top: -35px
+                    margin-bottom: 60px
+                    h2
+                        font-size: 32px
+                        font-weight: bold
+                    p
+                        color: gray
+                .content
+                    display: flex
+                    align-items: center
+                    .img
+                        img
+                            width: 594px
+                    .info
+                        width: 25%
+                        margin-left: 122px
+                        margin-top: -40px
+                        .divv
+                            h4
+                                font-size: 20px
+                                margin-bottom: -8px
+                            p
+                                color: gray
+                                font-size: 15px
+                                width: 93%
+            .clipboard
+                display: flex
+                flex-direction: column
+                align-items: center
+                .con
+                    margin-top: 95px
+                .content
+                    .img
+                        img
+                            width: 755px !important
+
+            .workflow
+                .contentItems
+                    display: flex
+                    align-items: center
+                    margin: 0 auto
+                    text-align: center
+                    width: 90%
+                    .item
+                        width: calc(90% / 3)
+                        margin-left: 35px
+                        .info
+                            h4
+                                font-size: 20px
+                                margin-bottom: 0
+                                margin-top: 35px
+                            p
+                                color: gray
+                                width: 95%
+            .brands
+                display: flex
+                justify-content: space-around
+                align-items: center
+                width: 85%
+                margin: 129px auto
+            .lastSection
+                background-image: none
+                height: auto
+                margin-bottom: 115px
+        footer
+            display: flex
+            align-content: center
+            justify-content: space-around
+            background: hsl(220deg ,18%, 97%)
+            padding: 25px 0
+            line-height: 2.5
+            .logof
+                img
+                    width: 50px
+                    margin-top: 50%
+            .listAll
+                display: flex
+                justify-content: space-between
+                margin-left: -22%
+                .list
+                    margin-right: -10%
+            .social
+                ul
+                    display: flex
+                    justify-content: space-evenly
+                    align-items: center
+                    margin-top: 40px
+                    li
+                        margin-right: 20px
+                        &:hover
+                            color: #26baa4
+                            user-select: none
+                            cursor: pointer
+
+            ul
+                li
+                    list-style: none
+                    &:hover
+                        color: #26baa4
+                        user-select: none
+                        cursor: pointer
